@@ -1,0 +1,235 @@
+/**{
+	outline: 1px solid green;
+}*/
+
+.homeButton {
+	background-image: url(../buttons/house_button1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+		display:inline-flex;
+    margin: 30px 20px;
+
+
+  transition: transform .25s;
+  display: inline-flex;
+
+
+
+  width: 100px;
+  height: 100px;
+
+
+}
+.homeButton:hover {
+  background-image: url(../buttons/house_buttonalt2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.5);
+
+	;
+
+
+
+  width: 100px;
+  height: 100px;
+}
+
+.homeButton:active {
+	position:relative;
+	transform: rotate(360deg);
+	transition: transform 5s
+
+
+
+
+
+}
+ul{
+	height:auto;
+	text-decoration: none;
+	list-style-position: none
+
+}
+
+li{
+	text-decoration: none;
+	list-style-type: none;
+
+
+}
+
+nav{
+	float: left !important;
+	margin: none;
+	padding: none;
+
+}
+
+
+.xsmallButton {
+  background-image: url(../buttons/XSmall_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+		display:inline block;;
+
+
+  transition: transform .25s;
+  display: inline-flex;
+
+  width: 100px;
+  height: 100px;
+
+
+}
+.xsmallButton:hover {
+  background-image: url(../buttons/XSmall_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.5);
+
+
+  width: 100px;
+  height: 100px;
+}
+.xsmallButton:active {
+	position:relative;
+	top:1px;
+}
+
+.smallButton {
+  background-image: url(../buttons/Small_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:inline-flex;
+
+
+
+  transition: transform .25s;
+  display: inline-flex;
+
+  width: 100px;
+  height: 100px;
+
+
+}
+.smallButton:hover {
+  background-image: url(../buttons/Small_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transform: scale(1.5);
+
+
+  width: 100px;
+  height: 100px;
+
+
+
+}
+.smallButton:active {
+	position:relative;
+	top:1px;
+}
+
+.mediumButton {
+	background-image: url(../buttons/Medium_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:inline-flex;
+
+	  transition: transform .25s;
+  display: inline-flex;
+
+  width: 100px;
+  height: 100px;
+
+
+}
+.mediumButton:hover {
+  background-image: url(../buttons/Medium_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.5);
+
+
+  width: 100px;
+  height: 100px;
+
+
+}
+.mediumButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.largeButton {
+  background-image: url(../buttons/Large_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:inline-flex;
+
+
+
+
+  transition: transform .25s;
+  display: inline-flex;
+
+  width: 100px;
+  height: 100px;
+
+}
+.largeButton:hover {
+  background-image: url(../buttons/Large_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transform: scale(1.5);
+	/*transform: rotate(360deg);*/
+	/*transition: transform 2s;*/
+
+  width: 100px;
+  height: 100px;
+
+
+
+}
+.myButton6:active {
+	position:relative;
+	top:1px;
+}
+
+.xlargeButton  {
+  background-image: url(../buttons/XLarge_1.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:inline-flex;
+
+
+  transition: transform .25s;
+  display: inline-flex;
+
+  width: 100px;
+  height: 100px;
+
+
+}
+.xlargeButton:hover {
+  background-image: url(../buttons/XLarge_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  transform: scale(1.5);
+
+
+  width: 100px;
+  height: 100px;
+
+
+
+}
+.xlargeButton:active {
+	position:relative;
+	top:1px;
+}

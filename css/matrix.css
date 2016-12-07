@@ -1,0 +1,130 @@
+:root {
+  --screenWidth: 100%;
+  --screenWidthHalf:50%;
+  --screenHeightHalf:25%;
+  --screenHeight:100%;
+  --square: 45px;
+  --fullwidth: 100%;
+  --objectWidth: 40px;
+  --objectHeight: 40px;
+  --objectMargin: 5px;
+}
+
+
+
+#div1 {
+  background-image: url(../buttons/square.jpg);
+  position: absolute;
+  width:var(--objectWidth);
+  height:var(--objectHeight);
+  margin-left: calc(var(--screenWidthHalf) - var(--objectWidth)*1);
+  margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
+  transition: transform .25s;
+      }
+
+
+     #div1:hover {
+      background-image: url(../buttons/square.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: scale(1.1);
+      transition: transform .25s;
+      }
+
+
+#div2 {
+  background-image: url(../buttons/square.jpg);
+  position: absolute;
+  width:var(--objectWidth);
+  height:var(--objectHeight);
+  margin-left: calc(var(--screenWidthHalf) - ((var(--objectWidth)*2) + var(--objectMargin)));
+  margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
+  transition: transform .25s;
+      }
+
+
+     #div2:hover {
+      background-image: url(../buttons/square.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: scale(1.1);
+      transition: transform .25s;
+      }
+
+
+#div3 {
+  background-image: url(../buttons/square.jpg);
+  position: absolute;
+  width:var(--objectWidth);
+  height:var(--objectHeight);
+  margin-left: calc(var(--screenWidthHalf) - ((var(--objectWidth)*3) + var(--objectMargin)*2));
+  margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
+  transition: transform .25s;
+      }
+
+
+     #div3:hover {
+      background-image: url(../buttons/square.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: scale(1.1);
+      transition: transform .25s;
+      }
+
+
+#div4 {
+  background-image: url(../buttons/square.jpg);
+  position: absolute;
+  width:var(--objectWidth);
+  height:var(--objectHeight);
+  margin-left: calc(var(--screenWidthHalf) - ((var(--objectWidth)*4) + var(--objectMargin)*3));
+  margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
+  transition: transform .25s;
+      }
+
+
+     #div4:hover {
+      background-image: url(../buttons/square.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: scale(1.1);
+      transition: transform .25s;
+      }
+
+
+
+
+
+/*
+
+#div2 {
+  background-image: url(../buttons/square.jpg);
+  width:40px;
+  height:40px;
+  position:absolute;
+  margin-left: calc(var(--screenWidth) + (var(--square)*2));
+  margin-top: calc(var(--screenHeight));
+      }
+
+    #div2:hover {
+    background-image: url(../buttons/square.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    transition: transform 2s;
+                }
+
+      #div2:active {
+      transform: rotate(90deg);
+      transition: transform 2s;
+                  }
+
+
+#div3 {
+  background-image: url(../buttons/square.jpg);
+  width:40px;
+  height:40px;
+  position:absolute;
+  margin-left: calc(var(--screenWidth) + (var(--square)*3));
+  margin-top: calc(var(--screenHeight));
+      }

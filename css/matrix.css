@@ -31,13 +31,19 @@
       transition: transform .25s;
       }
 
+          #div1:active {
+          transform: rotate(75deg);
+          transition: transform 2s;
+                      }
+
+
 
 #div2 {
   background-image: url(../buttons/square.jpg);
   position: absolute;
   width:var(--objectWidth);
   height:var(--objectHeight);
-  margin-left: calc(var(--screenWidthHalf) - ((var(--objectWidth)*2) + var(--objectMargin)*1));
+  margin-left: calc(var(--screenWidthHalf) - ((var(--objectWidth)*3) + var(--objectMargin)*1));
   margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
   transition: transform .25s;
       }
@@ -72,7 +78,7 @@
       }
 
 
-#div4 {
+/*#div4 {
   background-image: url(../buttons/square.jpg);
   position: absolute;
   width:var(--objectWidth);
@@ -89,39 +95,20 @@
       background-repeat: no-repeat;
       transform: scale(1.1);
       transition: transform .25s;
-      }
+      }*/
 
 #div5 {
   background-image: url(../buttons/square.jpg);
   position: absolute;
   width:var(--objectWidth);
   height:var(--objectHeight);
-  margin-left: calc(var(--screenWidthHalf) + ((var(--objectWidth)*.25) - var(--objectMargin)*1));
+  margin-left: calc(var(--screenWidthHalf) - ((var(--objectWidth)*4) + var(--objectMargin)*3));
   margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
   transition: transform .25s;
       }
 
 
      #div5:hover {
-      background-image: url(../buttons/square.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      transform: scale(1.1);
-      transition: transform .25s;
-      }
-
-#div6 {
-  background-image: url(../buttons/square.jpg);
-  position: absolute;
-  width:var(--objectWidth);
-  height:var(--objectHeight);
-  margin-left: calc(var(--screenWidthHalf) + ((var(--objectWidth)*1) + var(--objectMargin)*2));
-  margin-top: calc(var(--screenHeightHalf) + var(--objectHeight)*1);
-  transition: transform .25s;
-      }
-
-
-     #div6:hover {
       background-image: url(../buttons/square.jpg);
       background-size: cover;
       background-repeat: no-repeat;

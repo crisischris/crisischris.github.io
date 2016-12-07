@@ -27,9 +27,14 @@
       background-image: url(../buttons/square.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-      transform: scale(1.1);
+      transform: rotate(45deg);
       transition: transform .25s;
       }
+
+      #div1:active {
+        transform: rotate(30deg);
+        transition: transform .25s;
+                  }
 
 
 #div2 {
